@@ -1,0 +1,13 @@
+@sayandip Task:
+1. Fix the page
+2. Host
+3. Profile page
+4. Login page
+5. Video call frontend
+@Arka TAsk:
+1. Readme File
+2. Chatbot Personal page
+3. Github Setup 
+
+Common:
+Feature revision
