@@ -96,7 +96,7 @@ Join us at Med-AI, where we redefine healthcare, making it accessible, personali
   - 🔒What we have used: NoSQL Database Solutions, MongoDB Atlas (Cloud Database), Data Storage and Retrieval
 
 - ⚙️express js: - A robust web application framework for building APIs, ensuring seamless backend functionality. 
-  -🌐 What we have used: Node.js Web Framework, API Development with Express, Server-Side JavaScript
+  - 🌐What we have used: Node.js Web Framework, API Development with Express, Server-Side JavaScript
 
 - 🔍tesseract: - Optical character recognition tool, improving accuracy in prescription scanning. 
   - 🖼️What we have used: OCR Integration, Image Text Extraction, Text Recognition Tools
@@ -108,4 +108,4 @@ Join us at Med-AI, where we redefine healthcare, making it accessible, personali
   - 🔄What we have used: JavaScript Templating, Dynamic HTML Rendering, Express.js View Engine
 
 - ❄️snowball: - Integrates stemming algorithms, optimizing text analysis for improved chatbot interactions. 
-  -📊 What we have used: Information Retrieval, Text Mining Algorithms, Text Filtering Algorithms, Search Engine Optimization (SEO) Tools
+  - 📊What we have used: Information Retrieval, Text Mining Algorithms, Text Filtering Algorithms, Search Engine Optimization (SEO) Tools
