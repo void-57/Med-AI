@@ -65,8 +65,8 @@ Key Features:
     Doctor Appointments:
        1.Schedule appointments with preferred doctors through the chatbot.
        2.Receive confirmation and reminders for upcoming appointments. 🗓️
+    
     Patient Feedback/Testimonials 🗣️:
-
        1.Read firsthand experiences from patients who have benefited from our services. 🌟
        2.Gain insights into the positive impact Med-AI has on people's lives. 👍
 
@@ -114,3 +114,4 @@ Key Features:
                            Text Mining Algorithms
                            Text Filtering Algorithms
                            Search Engine Optimization (SEO) Tools
+
