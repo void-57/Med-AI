@@ -1,3 +1,4 @@
+
 Med-AI: Your Personalized Healthcare Companion 🌐💉:
      
      Welcome to Med-AI, your revolutionary healthcare partner that seamlessly integrates advanced technology with compassionate care. Our interactive chatbot and diagnosis website redefine the healthcare experience, providing personalized guidance and support. From real-time consultations and emergency assistance to mental health tracking and doctor access, Med-AI is your comprehensive solution. 🌟
@@ -68,4 +69,3 @@ Key Features:
 
        1.Read firsthand experiences from patients who have benefited from our services. 🌟
        2.Gain insights into the positive impact Med-AI has on people's lives. 👍
-
