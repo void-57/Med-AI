@@ -7,7 +7,7 @@
 @Arka TAsk:
 1. Readme File
 2. Chatbot Personal page
-3. Github Setup 
+3. Github Setup (done)
 
 Common:
 Feature revision
