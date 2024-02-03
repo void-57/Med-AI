@@ -1,0 +1,156 @@
+const handleChat = () => {
+    userMessage = chatInput.value.trim();
+    // s=convertSentence(userMessage);
+    // Get user entered message and remove extra whitespace
+    if(!userMessage) return;
+var ds={input:userMessage};
+var ans="";
+
+
+
+      fetch(url+"/output", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+      },
+      body: JSON.stringify(ds),
+    })
+
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+ans=data;
+       
+      })
+      .catch((err) => console.log(err));
+
+    // Clear the input textarea and set its height to default
+    chatInput.value = "";
+    
+    {{!-- chatInput.style.height = `${inputInitHeight}px`; --}}
+
+    // Append the user's message to the chatbox
+chatbox.appendChild(createChatLi(userMessage,"outgoing"));
+localStorage.setItem("previouschat",chatbox.innerHTML);
+
+
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    const incomingChatLi = createChatLi("Thinking...", "incoming");
+        chatbox.appendChild(incomingChatLi);
+        chatbox.scrollTo(0, chatbox.scrollHeight);
+        
+
+        console.log(ans);
+    setTimeout(() => {
+        // Display "Thinking..." message while waiting for the response
+        if(typeof ans=="object"){
+
+        
+          speakvoice(ans.message);
+          generateResponse(incomingChatLi,ans.message);
+          // generateResponse(incomingChatLi,ans.message);
+
+          createchart(ans);
+          startVideo();
+      }
+      else{
+        speakvoice(ans);
+        generateResponse(incomingChatLi,ans);
+          // generateResponse(incomingChatLi,ans.message);
+
+          // createchart(ans);
+          startVideo();
+     
+      }
+        
+        
+    }, 5500);
+}
+
+
+
+
+
+function showoutput(ans){
+   var chatbox = document.querySelector(".chatbox");
+  chatbox.appendChild(createChatLi(userMessage,"outgoing"));
+
+localStorage.setItem("previouschat",chatbox.innerHTML);
+
+
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    const incomingChatLi = createChatLi("Thinking...", "incoming");
+        chatbox.appendChild(incomingChatLi);
+        chatbox.scrollTo(0, chatbox.scrollHeight);
+        
+
+        console.log(ans);
+    setTimeout(() => {
+        // Display "Thinking..." message while waiting for the response
+        if(typeof ans=="object"){
+
+        
+          speakvoice(ans.message);
+          generateResponse(incomingChatLi,ans.message);
+          // generateResponse(incomingChatLi,ans.message);
+
+          createchart(ans);
+          startVideo();
+      }
+      else{
+        speakvoice(ans);
+        generateResponse(incomingChatLi,ans);
+          // generateResponse(incomingChatLi,ans.message);
+
+          // createchart(ans);
+          startVideo();
+     
+      }
+        
+        
+    }, 5500);
+
+}
+const handleChat = () => {
+    userMessage = chatInput.value.trim();
+    // s=convertSentence(userMessage);
+    // Get user entered message and remove extra whitespace
+    if(!userMessage) return;
+var ds={input:userMessage};
+var ans="";
+
+
+
+      fetch(url+"/output", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+      },
+      body: JSON.stringify(ds),
+    })
+
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+ans=data;
+showoutput(ans);
+       
+      })
+      .catch((err) => console.log(err));
+
+    // Clear the input textarea and set its height to default
+    chatInput.value = "";
+    
+    {{!-- chatInput.style.height = `${inputInitHeight}px`; --}}
+
+    // Append the user's message to the chatbox
+}
+
