@@ -151,11 +151,10 @@ click the "Fork" button on the top right of repository.
    ```bash
    git checkout -b branch1
 
-4. **Add Changes to :**
-  ```bash
-   git add .
+4.**Make Changes to your Branch:**
+   git add . 
 
-5.**Commit changes:**
+5. **Commit Changes:**
   git commit -m "New commit in Med-AI"
 
 6. **Push your Commit changes:**
@@ -168,7 +167,6 @@ Go to the forked repo of project, click "New pull request", change the branch to
 8.**Run a Local Server (Localhost):**
    ```bash
    npm install
-   npm start
-9.**Run npm Script for Chat:**
-  ```bash
-  npm run chat
+   npm run chat
+
+
