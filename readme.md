@@ -129,3 +129,16 @@ Snap-Shot of Patient's Personalized Mental Health Profile:
 
 
 ![Mental HealthProfile_2](https://github.com/ArkaMandal16/Med-AI/assets/123437008/89c69988-56c4-47d6-9379-9dbc20c0037f)
+
+
+Working Set-Up🔧:
+
+1. Git Clone:
+
+   # Project README
+
+## Git Operations Commands
+
+1. **Clone a Repository:**
+   ```bash
+   git clone <repository_url>
