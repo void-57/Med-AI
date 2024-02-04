@@ -111,3 +111,9 @@ Join us at Med-AI, where we redefine healthcare, making it accessible, personali
   - 📊What we have used: Information Retrieval, Text Mining Algorithms, Text Filtering Algorithms, Search Engine Optimization (SEO) Tools
   
 -Video Demonstartion🎥:
+
+
+https://github.com/ArkaMandal16/Med-AI/assets/123437008/f628c94f-cac9-4312-aa80-9f274244cae4
+
+
+
