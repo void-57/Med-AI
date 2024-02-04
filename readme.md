@@ -155,11 +155,10 @@ click the "Fork" button on the top right of repository.
   ```bash
    git add .
 
-5.**Commit Changes:**
-  ```bash
+5.**Commit changes:**
   git commit -m "New commit in Med-AI"
 
-6.**Push your Commit changes:**
+6. **Push your Commit changes:**
    ```bash
   git push -u origin branch1
 
@@ -167,7 +166,6 @@ click the "Fork" button on the top right of repository.
 Go to the forked repo of project, click "New pull request", change the branch to main and create a pull request.
 
 8.**Run a Local Server (Localhost):**
-For a basic web server using Node.js:
    ```bash
    npm install
    npm start
