@@ -148,38 +148,31 @@ You must have NPM(Node Package Manager) installed  in your system , If you dont 
 
 _How to setup this project_
 
-1. **Clone a Repository:**
-   ```bash
-   git clone <repository_url>
-
-2. **Fork a Repository:**
-click the "Fork" button on the top right of repository.
-
-3. **Create a Branch to make changes:**
-   ```bash
-   git checkout -b branch1
+1. Clone the repo
+   ```sh
+   git clone https://github.com/arnab2001/Ledged.git
    ```
-4. **configure `.env` and add:**
+3. Install all the NPM packages
+   ```sh
+   npm install
+   ```
+4. configure `.env` and add
    ```env
    DB_CONNECT = 'mongodb+srv://<username>:<password>@cluster0.dehf4yw.mongodb.net/?retryWrites=true&w=majority'
    ```
- 4.**Make Changes to your Branch:**
-   ```sh
-   git add . 
+ 
+5. Create a wallet.json file and add your public and private key
+   ```json
+   {
+    "privateKey": "<private_key>",
+    "publicKey": "<public_key>"
+    }
     ```
-5. **Commit Changes:**
-  ```bash
-  git commit -m "New commit in Med-AI"
-
-6. **Push your Commit changes:**
-   ```bash
-  git push -u origin branch1
-
-7.**Create Pull Request:**
-Go to the forked repo of project, click "New pull request", change the branch to main and create a pull request.
-
-8.**Run a Local Server (Localhost):**
-   ```bash
-   npm install
-   npm run chat
-
+6. Then import wallet using the private key, use the following command
+  ```sh
+  Metamask
+  ```
+7. run 
+  ```sh
+  npm start dev
+   ```
