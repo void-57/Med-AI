@@ -161,18 +161,29 @@ _How to setup this project_
    DB_CONNECT = 'mongodb+srv://<username>:<password>@cluster0.dehf4yw.mongodb.net/?retryWrites=true&w=majority'
    ```
  
-5. Create a wallet.json file and add your public and private key
-   ```json
-   {
-    "privateKey": "<private_key>",
-    "publicKey": "<public_key>"
-    }
-    ```
-6. Then import wallet using the private key, use the following command
-  ```sh
-  Metamask
-  ```
-7. run 
-  ```sh
-  npm start dev
+1. Clone the repo
+   ```sh
+   git clone https://github.com/arnab2001/Ledged.git
    ```
+3. Install all the NPM packages
+   ```sh
+   npm install
+   ```
+4. configure `.env` and add
+   ```env
+   DB_CONNECT = 'mongodb+srv://<username>:<password>@cluster0.dehf4yw.mongodb.net/?retryWrites=true&w=majority'
+   ```
+ 
+1. Clone the repo
+   ```sh
+   git clone https://github.com/arnab2001/Ledged.git
+   ```
+3. Install all the NPM packages
+   ```sh
+   npm install
+   ```
+4. configure `.env` and add
+   ```env
+   DB_CONNECT = 'mongodb+srv://<username>:<password>@cluster0.dehf4yw.mongodb.net/?retryWrites=true&w=majority'
+   ```
+ 
