@@ -119,10 +119,13 @@ https://github.com/ArkaMandal16/Med-AI/assets/123437008/b3d59b5e-04c3-4347-99da-
 https://github.com/ArkaMandal16/Med-AI/assets/123437008/905e0ad1-4b9c-48f2-a3d6-d10a95635627
 
 
-
 Med-AI Mental Health Profile🌿:
 
 Embark on a transformative experience with MindfulWellness. Our customized mental health feature offers interactive tracking, empowering users with real-time assessments and personalized insights. Seamlessly integrated with a goal-setting module, it provides a holistic approach to well-being. Tailor your mental health journey, set achievable goals, and track progress—all in one empowering platform. Cultivate mindfulness, prioritize self-care, and reach your aspirations with MindfulWellness. 🌟🧘‍♂️🎯
 
 Snap-Shot of Patient's Personalized Mental Health Profile:
 
+![Mental Health Profile](https://github.com/ArkaMandal16/Med-AI/assets/123437008/a44a41b2-fa04-4b24-a9c2-98e98a472761)
+
+
+![Mental HealthProfile_2](https://github.com/ArkaMandal16/Med-AI/assets/123437008/89c69988-56c4-47d6-9379-9dbc20c0037f)
