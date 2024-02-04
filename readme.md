@@ -150,40 +150,41 @@ _How to setup this project_
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/arnab2001/Ledged.git
+   git clone <url>
    ```
-3. Install all the NPM packages
+2. Install all the NPM packages
    ```sh
    npm install
    ```
-4. configure `.env` and add
+3. configure `.env` and add
    ```env
-   DB_CONNECT = 'mongodb+srv://<username>:<password>@cluster0.dehf4yw.mongodb.net/?retryWrites=true&w=majority'
+   DB_CONNECT = 'mongodb+srv://<username>:<password>@dropling.dehf4yw.mongodb.net/?retryWrites=true&w=majority'
    ```
  
-1. Clone the repo
+4. create your branch 
    ```sh
-   git clone https://github.com/arnab2001/Ledged.git
+  git checkout -b branch
    ```
-3. Install all the NPM packages
+5. make changes to your branch
    ```sh
-   npm install
+   git add . 
    ```
-4. configure `.env` and add
-   ```env
-   DB_CONNECT = 'mongodb+srv://<username>:<password>@cluster0.dehf4yw.mongodb.net/?retryWrites=true&w=majority'
+6. Commit Changes:
+   ```sh
+     git commit -m "New commit in Med-AI"
    ```
  
-1. Clone the repo
+7. Push your Commit changes:
    ```sh
-   git clone https://github.com/arnab2001/Ledged.git
+  git push -u origin branch
    ```
-3. Install all the NPM packages
+8. Create Pull Request:
+   ```sh
+   Go to the forked repo of project, click "New pull request", change the branch to main and create a pull request.
+   ```
+4. Run a Local Server (Localhost):
    ```sh
    npm install
-   ```
-4. configure `.env` and add
-   ```env
-   DB_CONNECT = 'mongodb+srv://<username>:<password>@cluster0.dehf4yw.mongodb.net/?retryWrites=true&w=majority'
+   npm run chat
    ```
  
