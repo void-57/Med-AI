@@ -110,7 +110,7 @@ Join us at Med-AI, where we redefine healthcare, making it accessible, personali
 - ❄️snowball: - Integrates stemming algorithms, optimizing text analysis for improved chatbot interactions. 
   - 📊What we have used: Information Retrieval, Text Mining Algorithms, Text Filtering Algorithms, Search Engine Optimization (SEO) Tools
   
--Video Demonstration🎥:
+# Video Demonstration🎥:
 
 
 https://github.com/ArkaMandal16/Med-AI/assets/123437008/b3d59b5e-04c3-4347-99da-9a0abc806e80
@@ -119,11 +119,11 @@ https://github.com/ArkaMandal16/Med-AI/assets/123437008/b3d59b5e-04c3-4347-99da-
 https://github.com/ArkaMandal16/Med-AI/assets/123437008/905e0ad1-4b9c-48f2-a3d6-d10a95635627
 
 
-Med-AI Mental Health Profile🌿:
+# Med-AI Mental Health Profile🌿:
 
 Embark on a transformative experience with MindfulWellness. Our customized mental health feature offers interactive tracking, empowering users with real-time assessments and personalized insights. Seamlessly integrated with a goal-setting module, it provides a holistic approach to well-being. Tailor your mental health journey, set achievable goals, and track progress—all in one empowering platform. Cultivate mindfulness, prioritize self-care, and reach your aspirations with MindfulWellness. 🌟🧘‍♂️🎯
 
-Snap-Shot of Patient's Personalized Mental Health Profile:
+## Snap-Shot of Patient's Personalized Mental Health Profile:
 
 ![Mental Health Profile](https://github.com/ArkaMandal16/Med-AI/assets/123437008/a44a41b2-fa04-4b24-a9c2-98e98a472761)
 
@@ -131,9 +131,10 @@ Snap-Shot of Patient's Personalized Mental Health Profile:
 ![Mental HealthProfile_2](https://github.com/ArkaMandal16/Med-AI/assets/123437008/89c69988-56c4-47d6-9379-9dbc20c0037f)
 
 
-Working Set-Up🔧:
+# Working Set-Up🔧:
 
-1. Git Clone:
+## 1. Git Clone: 
+Clone the Public repository of the Project in VS Code
 
    # Project README
 
@@ -142,3 +143,28 @@ Working Set-Up🔧:
 1. **Clone a Repository:**
    ```bash
    git clone <repository_url>
+
+2. **Fork a Repository:**
+click the "Fork" button on the top right of repository.
+
+3. **Create a Branch to make changes:**
+   git checkout -b branch1
+
+5. **Add Changes to :**
+   git add .
+
+5.**Commit Changes:**
+  git commit -m "New commit in Med-AI"
+
+6.**Push your Commit changes:**
+  git push -u origin branch1
+
+7.**Create Pull Request:**
+Go to the forked repo of project, click "New pull request", change the branch to main and create a pull request.
+
+8.**Run a Local Server (Localhost):**
+For a basic web server using Node.js:
+   npm install
+   npm start
+9.**Run npm Script for Chat:**
+  npm run chat
