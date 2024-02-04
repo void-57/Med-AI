@@ -133,40 +133,47 @@ Embark on a transformative experience with MindfulWellness. Our customized menta
 
 # Working Set-Up🔧:
 
-## 1. Git Clone: 
-Clone the Public repository of the Project in VS Code
+## Getting Started
+For setting up your project locally, follow these simple steps.
 
-   # Project README
+### Prerequisites
 
-## Git Operations Commands
+You must have NPM(Node Package Manager) installed  in your system , If you dont we got you covered  
 
-1. **Clone a Repository:**
-   ```bash
-   git clone <repository_url>
+  
+  [Install NPM](https://phoenixnap.com/kb/install-node-js-npm-on-windows)
+ 
 
-2. **Fork a Repository:**
-click the "Fork" button on the top right of repository.
+### Installation
 
-3. **Create a Branch to make changes:**
-   ```bash
-   git checkout -b branch1
+_How to setup this project_
 
-4.**Make Changes to your Branch:**
-   git add . 
-
-5. **Commit Changes:**
-  git commit -m "New commit in Med-AI"
-
-6. **Push your Commit changes:**
-   ```bash
-  git push -u origin branch1
-
-7.**Create Pull Request:**
-Go to the forked repo of project, click "New pull request", change the branch to main and create a pull request.
-
-8.**Run a Local Server (Localhost):**
-   ```bash
+1. Clone the repo
+   ```sh
+   git clone https://github.com/arnab2001/Ledged.git
+   ```
+3. Install all the NPM packages
+   ```sh
    npm install
-   npm run chat
-
-
+   ```
+4. configure `.env` and add
+   ```env
+   DB_CONNECT = 'mongodb+srv://<username>:<password>@cluster0.dehf4yw.mongodb.net/?retryWrites=true&w=majority'
+   ```
+ 
+5. Create a wallet.json file and add your public and private key
+   ```json
+   {
+    "privateKey": "<private_key>",
+    "publicKey": "<public_key>"
+    }
+    ```
+6. Then import wallet using the private key, use the following command
+  ```sh
+  Metamask
+  ```
+7. run 
+  ```sh
+  npm start dev
+   ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
