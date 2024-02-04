@@ -5,7 +5,7 @@
 4. Login page
 5. Video call frontend
 @Arka TAsk:
-1. Readme File ()
+1. Readme File (partly done)
 2. Chatbot Personal page
 3. Github Setup (done)
 
