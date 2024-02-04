@@ -110,10 +110,11 @@ Join us at Med-AI, where we redefine healthcare, making it accessible, personali
 - ❄️snowball: - Integrates stemming algorithms, optimizing text analysis for improved chatbot interactions. 
   - 📊What we have used: Information Retrieval, Text Mining Algorithms, Text Filtering Algorithms, Search Engine Optimization (SEO) Tools
   
--Video Demonstartion🎥:
+-Video Demonstration🎥:
 
 
-https://github.com/ArkaMandal16/Med-AI/assets/123437008/f628c94f-cac9-4312-aa80-9f274244cae4
+https://github.com/ArkaMandal16/Med-AI/assets/123437008/b3d59b5e-04c3-4347-99da-9a0abc806e80
 
 
+https://github.com/ArkaMandal16/Med-AI/assets/123437008/905e0ad1-4b9c-48f2-a3d6-d10a95635627
 
