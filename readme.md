@@ -190,8 +190,11 @@ _How to setup this project_
    npm run chat
    ```
 
+<<<<<<< HEAD
 Here are the links for our Prototype hosted:
 1. https://c06f1993-7dd9-49e8-9fcd-d67a404d48cb-00-1utjhbbfthht5.worf.replit.dev/
 2. https://med-ai-et9j.onrender.com/
 
 Also, You can scan this following QR code to visit our website:
+=======
+>>>>>>> cf4f60b2231218a05136a2ed8034865a7712a2bd
