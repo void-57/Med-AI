@@ -157,7 +157,7 @@ _How to setup this project_
 
 1. Clone the repo
    ```sh
-   git clone <url>
+   git clone https://github.com/ArkaMandal16/Med-AI
    ```
 2. Install all the NPM packages
    ```sh
