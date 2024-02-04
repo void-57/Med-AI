@@ -131,6 +131,8 @@ Embark on a transformative experience with MindfulWellness. Our customized menta
 ![Mental HealthProfile_2](https://github.com/ArkaMandal16/Med-AI/assets/123437008/89c69988-56c4-47d6-9379-9dbc20c0037f)
 
 
+
+
 # Working Set-Up🔧:
 
 ## Getting Started
@@ -187,4 +189,4 @@ _How to setup this project_
    npm install
    npm run chat
    ```
- 
+
