@@ -148,15 +148,19 @@ Clone the Public repository of the Project in VS Code
 click the "Fork" button on the top right of repository.
 
 3. **Create a Branch to make changes:**
+   ```bash
    git checkout -b branch1
 
-5. **Add Changes to :**
+4. **Add Changes to :**
+  ```bash
    git add .
 
 5.**Commit Changes:**
+  ```bash
   git commit -m "New commit in Med-AI"
 
 6.**Push your Commit changes:**
+   ```bash
   git push -u origin branch1
 
 7.**Create Pull Request:**
@@ -164,7 +168,9 @@ Go to the forked repo of project, click "New pull request", change the branch to
 
 8.**Run a Local Server (Localhost):**
 For a basic web server using Node.js:
+   ```bash
    npm install
    npm start
 9.**Run npm Script for Chat:**
+  ```bash
   npm run chat
