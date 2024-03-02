@@ -170,7 +170,7 @@ _How to setup this project_
  
 4. create your branch 
    ```sh
-  git checkout -b branch
+   git checkout -b branch
    ```
 5. make changes to your branch
    ```sh
@@ -183,7 +183,7 @@ _How to setup this project_
  
 7. Push your Commit changes:
    ```sh
-  git push -u origin branch
+   git push -u origin branch
    ```
 8. Create Pull Request:
    ```sh
